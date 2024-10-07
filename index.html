@@ -3,9 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <script></script>
+    <main class="container">
+      <h1>
+        Generate a <br />
+        <span>Random Password</span>
+      </h1>
+
+      <!-- Password display area -->
+      <div class="display">
+        <input type="text" id="password" placeholder="Password" readonly />
+        <img
+          src="assets/images/copy.png"
+          onclick="copyPassword()"
+          alt="Copy password"
+        />
+      </div>
+
+      <!-- Generate password button -->
+      <button onclick="generatePassword()">
+        <img src="assets/images/generate.png" alt="Generate password icon" />
+        Generate Password
+      </button>
+    </main>
+
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #002339;
+  color: #fff;
+  line-height: 1.6; /* Melhor legibilidade */
+}
+
+.container {
+  margin: 12% auto; /* Alinhamento automático horizontal */
+  width: 90%;
+  max-width: 700px;
+}
+
+.display {
+  width: 100%;
+  margin: 50px 0 30px; /* Simplificação de margens */
+  background: #fff;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona profundidade à caixa */
+}
+
+.container h1 {
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 20px; /* Espaço entre o título e o conteúdo */
+}
+
+.container h1 span {
+  color: #019f55;
+  border-bottom: 4px solid #019f55;
+  padding-bottom: 7px;
+}
+
+.display img {
+  width: 30px;
+  cursor: pointer;
+  transition: transform 0.2s; /* Efeito de animação */
+}
+
+.display img:hover {
+  transform: scale(1.1); /* Pequena animação ao passar o mouse */
+}
+
+.display input {
+  border: 0;
+  outline: 0;
+  font-size: 25px;
+  flex: 1; /* Expande o campo de input para ocupar mais espaço */
+  margin-right: 10px; /* Espaço entre o input e o ícone */
+}
+
+.container button img {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.container button {
+  border: 0;
+  outline: 0;
+  background: #019f55;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease; /* Suaviza a transição da cor de fundo */
+}
+
+.container button:hover {
+  background: #017f45; /* Cor mais escura no hover */
+}
